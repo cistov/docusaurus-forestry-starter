@@ -1,8 +1,8 @@
 {
   "someSidebar": {
     "Docusaurus": [
-      "Test Doc",
       "doc1",
+      "test-id",
       "doc2",
       "doc3"
     ],
