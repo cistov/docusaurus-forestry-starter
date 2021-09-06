@@ -1,7 +1,7 @@
 ---
 id: ''
 title: Test Doc
-sidebar_label: ''
+sidebar_label: Test Doc
 
 ---
 Lorem Ipsum
