@@ -13,3 +13,4 @@ fields:
   label: sidebar_label
 pages:
 - docs/Subfolder/new-doc.md
+- docs/test-doc.md
