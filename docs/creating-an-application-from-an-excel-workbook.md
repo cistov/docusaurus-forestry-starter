@@ -42,4 +42,42 @@ Column names will be turned into field names by the conversion process, which al
 
 Long column headings do not make good field names. So, look at the headings in each sheet and replace the long ones with shorter text that makes better field names. It is quick to do this at the start than to wait until after the conversion.
 
-You can now use this It is a good idea to make a compliant version of the xls to start the conversion process.
+You can now use this compliant version of the xls to start the conversion process.
+
+\##Convert the workbook
+
+This is a simple command that produces a Genesis data model very quickly. The syntax is:
+
+**ExcelToGenesis**
+
+**-f, --file**	the name of the worksheet you are going to convert.
+
+**-n –nam**e the name of the project (application) you want to create.
+
+**-t –table**	each table is automatically given a unique numeric ID. Supply the opening sequence number, for example, 10000. Numeric IDs enable you to change the name of a table without losing the data.
+
+So, for our example, we are going to run:
+
+    ExcelToGenesis -f euc\ demo\ cash\ mgmt.xlsx -n cash -t 10000
+
+The process is quick.It creates a number of tables and dictionaries using the application name you supplied.
+
+Look at the Fields table. Note some large field names. Note automatic conversion of illegal characters (% sign to PERCENT for example) to make them Genesis-compliant. 
+
+Look at the Tables file. The source of each table is included as a comment at the beginning.
+
+The fields are automatically sampled by the command to allocate a type. If it is not sure, it allocates a the field as a strong. Most of these will be correct, but you will need to handle exceptions.
+
+Each field in the table has a comment showing the column it came from and relevant notes on the function (e.g aggregation). Note the unable to parse field. You will have to deal with this, perhaps by creating a consolidator.
+
+Primary key is the first column, by default. Note that it has handled a concatenation, where the primary key is created from the first two columns.
+
+Table ids are sequential from the first one created, starting with the -t number supplied.
+
+Look at the Views file.
+
+The script has been able to find where tables need joins. Exceptions are highlighted.
+
+It has been able to create derived fields. Example includes both IF statements and VAL.
+
+It has been able to translate the abs function.
