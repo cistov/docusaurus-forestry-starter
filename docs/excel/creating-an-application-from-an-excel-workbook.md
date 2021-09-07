@@ -24,7 +24,7 @@ Following this, we can build a web front-end that gives users a clear user inter
 
 When you analyse the existing workbook, there are some clear things to look out for.
 
-## Structure 
+## Structure
 
 The content of each workbook is essentially a simple grid.
 
@@ -62,7 +62,19 @@ So, for our example, we are going to run:
 
 The process is quick.It creates a number of tables and dictionaries using the application name you supplied.
 
-Look at the Fields table. Note some large field names. Note automatic conversion of illegal characters (% sign to PERCENT for example) to make them Genesis-compliant. 
+This is what it gives us:
+
+![](/img/the-command-and-what-it-gives-you.png)
+
+The conversion has created a folder called **/home/core/run/cash.cfg**. This contains:
+
+the field definitions are in the file **cash-fields-dictionary.kts**
+
+the table definitions are in 
+
+Data files. The data from each worksheet has been extracted to a separate csv file.
+
+Look at the Fields table. Note some large field names. Note automatic conversion of illegal characters (% sign to PERCENT for example) to make them Genesis-compliant.
 
 Look at the Tables file. The source of each table is included as a comment at the beginning.
 
