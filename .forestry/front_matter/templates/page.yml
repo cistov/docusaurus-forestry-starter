@@ -11,8 +11,3 @@ fields:
 - type: text
   name: sidebar_label
   label: sidebar_label
-pages:
-- docs/Subfolder/new-doc.md
-- docs/creating-an-application-from-an-excel-workbook.md
-- docs/functions-converted-by-exceltogenesis.md
-- docs/test-doc.md

@@ -8,15 +8,9 @@ sections:
   path: docs
   label: Docs
   create: all
-  match: "*.md"
+  match: "**/*.md"
   templates:
   - page
-  - page
-- type: directory
-  path: blog
-  label: Blog
-  create: documents
-  match: "*.md"
 - type: document
   path: sidebars.json
   label: Sidebar
