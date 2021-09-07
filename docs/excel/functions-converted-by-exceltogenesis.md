@@ -1,13 +1,13 @@
 ---
-id: Functions ExcelToGenesis
+id: functions
 title: Functions converted by ExcelToGenesis
-sidebar_label: Functions converted by ExcelToGenesis
+sidebar_label: Functions
 
 ---
 The following Excel functions are currently supported by ExcelToGenesis.
 
-| --- | --- |
 | Operator | Example |
+| -------- | --------- |
 | Parenthesis | (A + B) * C |
 | Unary Minus | -A |
 | Unary Plus | +A |
@@ -16,7 +16,7 @@ The following Excel functions are currently supported by ExcelToGenesis.
 | Add | A + B |
 | Minus | A – B |
 | Equal | A = B |
-| Not Equal | A <> B |
+| Not Equal | A <\> B |
 | Less Than | A < B |
 | Less than or equal | A <= B |
 | Greater Than | A > B |
@@ -32,3 +32,5 @@ The following Excel functions are currently supported by ExcelToGenesis.
 | RoundDown | ROUNDDOWN(A, 2), ROUNDDOWN(A) |
 | Search | SEARCH(A, “Hello”) |
 | Is Error | ISERR(A) |
+
+

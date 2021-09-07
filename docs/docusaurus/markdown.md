@@ -1,7 +1,6 @@
 ---
-slug: /
-title: Style Guide
-sidebar_label: Style Guide
+id: markdown
+title: Markdown Syntax
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

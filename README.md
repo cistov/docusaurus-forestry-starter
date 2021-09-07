@@ -2,14 +2,6 @@
 
 Documentation website starter built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-## Content Management
-
-This repository is ready to be imported in [Forestry](https://forestry.io), a Git-based CMS, to edit Markdown, JSON files and preview your site before saving changes.
-
-[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=DirtyF/docusaurus-forestry-starter&engine=other)
-
-![Forestry CMS](./static/img/forestry-cms.png)
-
 ### Installation
 
 ```
@@ -33,12 +25,6 @@ yarn build
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
-
-#### Vercel
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/git)
-
-Copy-paste your Git repository URL, set build settings and click deploy ✨.
 
 #### GitHub Pages
 
