@@ -6,7 +6,11 @@ sidebar_label: Doc 3
 ---
 **Good morning**
 
-mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. 
+
+![](/img/artifactory-crunched.png)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ![](/img/dev-illustration-02.png)
 
