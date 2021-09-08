@@ -7,7 +7,7 @@ You can write content using [GitHub-flavored Markdown syntax](https://github.git
 
 ## Markdown Syntax
 
-To serve as an example page when styling markdown based Docusaurus sites.
+To serve as an example page when styling markdown based Docusaurus sites!!!
 
 ## Headers
 
@@ -47,11 +47,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 4. And another item.
 
 * Unordered list can use asterisks
-
-
 * Or minuses
-
-
 * Or pluses
 
 ***
