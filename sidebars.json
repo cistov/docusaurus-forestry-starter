@@ -2,10 +2,16 @@
   "sidebar": {
     "Docusaurus": [
       "docusaurus/markdown",
-      { "Advanced": ["docusaurus/advanced/mdx"] }
+      {
+        "Advanced": [
+          "docusaurus/advanced/mdx"
+        ]
+      },
+      "docusaurus/my-id"
     ],
     "Excel": [
-      "excel/creating", "excel/functions"
+      "excel/creating",
+      "excel/functions"
     ]
   }
 }
