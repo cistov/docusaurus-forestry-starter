@@ -4,4 +4,4 @@ title: Test document
 sidebar_label: Test Document
 
 ---
-Dummy
+Dummy **content** here
