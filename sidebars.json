@@ -1,9 +1,9 @@
 {
   "sidebar": {
     "Docusaurus": [
-      "docusaurus/test-doc",
-      "docusaurus/markdown",
       "docusaurus/my-id",
+      "docusaurus/markdown",
+      "docusaurus/test-doc",
       {
         "Advanced": [
           "docusaurus/advanced/mdx"
