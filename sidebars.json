@@ -1,6 +1,7 @@
 {
   "sidebar": {
     "Docusaurus": [
+      "docusaurus/test-doc",
       "docusaurus/markdown",
       "docusaurus/my-id",
       {
