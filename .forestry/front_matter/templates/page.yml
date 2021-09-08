@@ -13,3 +13,4 @@ fields:
   label: sidebar_label
 pages:
 - docs/docusaurus/some-quite-long-document-title-no-id.md
+- docs/docusaurus/some-quite-long-document-title-with-id.md
