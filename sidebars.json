@@ -1,18 +1,13 @@
 {
-  "sidebar": {
-    "Docusaurus": [
-      "docusaurus/my-id",
-      "docusaurus/test-doc",
-      "docusaurus/markdown",
-      {
-        "Advanced": [
-          "docusaurus/advanced/mdx"
-        ]
-      }
-    ],
-    "Excel": [
-      "excel/creating",
-      "excel/functions"
-    ]
-  }
+  "sidebar": [
+    {
+      "type": "category",
+      "label": "Docusaurus",
+      "items": ["docusaurus/markdown", "docusaurus/my-id", {
+        "type": "category",
+        "label": "Advanced",
+        "items": ["docusaurus/advanced/mdx"]
+      }]
+    }
+  ]
 }
