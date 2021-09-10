@@ -5,4 +5,6 @@ sidebar_position: 3
 id: long-doc
 
 ---
-Dummy content
+Dummy content [link](/docusaurus/test-doc)
+
+Dummy content [link](/excel/functions)

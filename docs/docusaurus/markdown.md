@@ -62,8 +62,6 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [I'm a reference-style link](https://www.mozilla.org/)
 
-[I'm a relative reference to a repository file](../../master/LICENSE)
-
 [You can use numbers for reference-style link definitions](http://slashdot.org/)
 
 Or leave it empty and use the [link text itself](http://www.reddit.com/).

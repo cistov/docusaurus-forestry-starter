@@ -5,8 +5,9 @@ module.exports = {
   title: 'Docusaurus Test Site',
   tagline: 'Good documentation',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: process.env.BASE_URL || '/',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
 
   presets: [
     [
@@ -31,14 +32,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        }
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
@@ -48,7 +42,7 @@ module.exports = {
           items: [
             {
               label: 'Markdown',
-              to: 'docs/docusaurus/markdown',
+              to: '/docusaurus/markdown',
             }
           ],
         },

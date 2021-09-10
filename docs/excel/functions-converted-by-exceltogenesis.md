@@ -1,6 +1,7 @@
 ---
 title: Functions converted by ExcelToGenesis
 sidebar_label: Functions
+id: functions
 
 ---
 The following Excel functions are currently supported by ExcelToGenesis.
