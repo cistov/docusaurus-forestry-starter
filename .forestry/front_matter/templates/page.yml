@@ -5,9 +5,13 @@ fields:
 - type: text
   name: title
   label: Title
+  config:
+    required: true
 - type: text
   name: sidebar_label
   label: Sidebar label
+  config:
+    required: true
 - name: sidebar_position
   type: number
   label: Order within the sidebar category
@@ -17,9 +21,14 @@ fields:
     min: 
     max: 
     step: 
+    required: true
 - type: text
   name: id
   label: URL Name
+  description: 'Part of the URL after the last slash. Should be short, lowercase,
+    no special characters (except hyphens). '
+  config:
+    required: true
 pages:
 - docs/docusaurus/some-quite-long-document-title-no-id.md
 - docs/docusaurus/test-document.md
