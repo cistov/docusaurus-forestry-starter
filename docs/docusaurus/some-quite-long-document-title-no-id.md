@@ -7,6 +7,6 @@ id: long-doc
 ---
 Dummy content [link](/docusaurus/test-doc)
 
-Dummy content [link](/excel/functions)
+Dummy content link
 
 Some [link](/excel/functions/) here
