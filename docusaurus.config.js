@@ -3,21 +3,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
   title: 'Docusaurus Test Site',
-  tagline: 'Good documentation is cool',
+  tagline: 'Good documentation',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  // organizationName: 'genesislcap', // Usually your GitHub org/user name.
-  // projectName: 'docs', // Usually your repo name.
 
   presets: [
     [
       '@docusaurus/preset-classic',
       {
+        // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs
         docs: {
-          sidebarPath: require.resolve('./sidebars.json'),
-          editUrl:
-            'https://github.com/genesislcap/docs/edit/master/',
+          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.json')
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,5 +1,4 @@
 ---
-id: functions
 title: Functions converted by ExcelToGenesis
 sidebar_label: Functions
 

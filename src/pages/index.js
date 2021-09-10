@@ -71,7 +71,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/docusaurus/markdown')}>
+              to={useBaseUrl('/docusaurus/markdown')}>
               Get Started
             </Link>
           </div>
