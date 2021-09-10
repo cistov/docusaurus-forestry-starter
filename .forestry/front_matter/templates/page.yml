@@ -3,22 +3,24 @@ label: Page
 hide_body: false
 fields:
 - type: text
-  name: id
-  label: id
-- type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: sidebar_label
-  label: sidebar_label
-- name: slug
-  type: text
+  label: Sidebar label
+- name: sidebar_position
+  type: number
+  label: Order within the sidebar category
+  default: 0
+  required: true
   config:
-    required: false
-  label: slug
+    min: 
+    max: 
+    step: 
+- type: text
+  name: id
+  label: URL Name
 pages:
-- docs/docusaurus/some-quite-long-document-title-no-id-with-label.md
 - docs/docusaurus/some-quite-long-document-title-no-id.md
-- docs/docusaurus/some-quite-long-document-title-with-id.md
 - docs/docusaurus/test-document.md
 - docs/test-document-name-special-chars.md
