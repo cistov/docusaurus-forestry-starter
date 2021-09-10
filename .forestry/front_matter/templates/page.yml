@@ -11,6 +11,11 @@ fields:
 - type: text
   name: sidebar_label
   label: sidebar_label
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
 pages:
 - docs/docusaurus/some-quite-long-document-title-no-id-with-label.md
 - docs/docusaurus/some-quite-long-document-title-no-id.md
