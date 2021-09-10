@@ -15,7 +15,7 @@ fields:
 - name: sidebar_position
   type: number
   label: Order within the sidebar category
-  default: 0
+  default: 
   required: true
   config:
     min: 
