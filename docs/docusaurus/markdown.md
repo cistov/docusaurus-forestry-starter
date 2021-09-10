@@ -68,7 +68,7 @@ Or leave it empty and use the [link text itself](http://www.reddit.com/).
 
 URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or [http://www.example.com/](http://www.example.com/) and sometimes example.com (but not on GitHub, for example).
 
-Some text to show that the reference links can follow later.
+[Anchor link](#markdown-syntax) to a section on the same page
 
 ***
 
