@@ -2,6 +2,7 @@
 id: markdown
 title: Markdown Syntax
 sidebar_position: 1
+sidebar_label: Markdown Syntax
 
 ---
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
