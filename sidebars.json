@@ -3,11 +3,18 @@
     {
       "type": "category",
       "label": "Docusaurus",
-      "items": ["docusaurus/markdown", "docusaurus/my-id", {
-        "type": "category",
-        "label": "Advanced",
-        "items": ["docusaurus/advanced/mdx"]
-      }]
+      "items": [
+        "docusaurus/markdown",
+        "docusaurus/my-id",
+        "docusaurus/my-id-2",
+        {
+          "type": "category",
+          "label": "Advanced",
+          "items": [
+            "docusaurus/advanced/mdx"
+          ]
+        }
+      ]
     }
   ]
 }

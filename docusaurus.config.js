@@ -7,8 +7,8 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'genesislcap', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  // organizationName: 'genesislcap', // Usually your GitHub org/user name.
+  // projectName: 'docs', // Usually your repo name.
 
   presets: [
     [
