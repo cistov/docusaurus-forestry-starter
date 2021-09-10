@@ -8,3 +8,5 @@ id: long-doc
 Dummy content [link](/docusaurus/test-doc)
 
 Dummy content [link](/excel/functions)
+
+Some [link](/excel/functions/) here
