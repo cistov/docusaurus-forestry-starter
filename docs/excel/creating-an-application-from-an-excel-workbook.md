@@ -2,6 +2,7 @@
 id: creating
 title: Creating an application from an Excel workbook
 sidebar_label: Creating an application
+sidebar_position: 2
 
 ---
 Operational functions sitting in Excel workbooks is a common occurrence in the financial sector. And it sometimes includes functions that are mission-critical.
