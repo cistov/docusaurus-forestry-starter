@@ -1,5 +1,5 @@
 ---
-id: creating
+id: creating-an-application-from
 title: Creating an application from an Excel workbook
 sidebar_label: Creating an application
 sidebar_position: 2
