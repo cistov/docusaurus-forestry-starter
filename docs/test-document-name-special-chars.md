@@ -7,6 +7,12 @@ id: test
 ---
 Dummy content
 
-fdsfs <tag> dsadasdfsd
+fdsfs `<tag>` dsadasdfsd
+
+```xml
+dsadas
+dasdsa
+dsdas
+```
 
 dffsd
